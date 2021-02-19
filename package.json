@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@uiw/react-md-editor": "^2.1.8",
     "@zeit/next-css": "^1.0.1",
     "classnames": "^2.2.6",
+    "draft-js": "^0.11.7",
     "lodash": "^4.17.19",
     "next": "^9.5.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-draft-wysiwyg": "^1.14.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

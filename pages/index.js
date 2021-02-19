@@ -99,13 +99,13 @@ Previewer.propTypes = {
 
 // Uncomment keys to register editors for media types
 const REGISTERED_EDITORS = {
-  // "text/plain": PlaintextEditor,
-  // "text/markdown": MarkdownEditor,
+  "text/plain": PlaintextEditor,
+  "text/markdown": MarkdownEditor,
 };
 
 function PlaintextFilesChallenge() {
-  const [files, setFiles] = useState([]);
-  const [activeFile, setActiveFile] = useState(null);
+  const [files, setFiles] = React.useState([]);
+  const [activeFile, setActiveFile] = React.useState(null);
 
   useEffect(() => {
     const files = listFiles();
